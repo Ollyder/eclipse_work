@@ -1,2 +1,0 @@
-# eclipse_work
-android 
