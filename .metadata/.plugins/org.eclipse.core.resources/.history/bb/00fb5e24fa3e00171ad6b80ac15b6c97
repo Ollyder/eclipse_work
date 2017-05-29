@@ -1,0 +1,13 @@
+package com.example.activity.firstactivity;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class firstActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstaceState) {
+		super.onCreate(savedInstanceState);
+		
+	}
+}

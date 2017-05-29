@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <TextView 
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName:"
+        android:gravity="center"
+        android:textColor="#66ccff"/>
+        
+        <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="0sp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="USerName" 
+        android:maxLines="2"/>
+        
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Button" 
+        android:layout_gravity="center" />
+    
+    
+    
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+    
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:lauout_height="wrap_content"
+        />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Show&apos; to &apos;WIFI_PM2.5(UI)&apos;&#x0D;&#x0A;- Original element: &apos;Show&apos;&#x0D;&#x0A;- Renamed element: &apos;Show&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Show&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Show" name="WIFI_PM2.5(UI)" references="true" stamp="1495945038082" version="1.0"/>
+</session>
