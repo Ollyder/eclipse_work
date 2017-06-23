@@ -52,12 +52,14 @@
         	
         </LinearLayout>
         
-		<Button 
+		<ToggleButton 
 		    android:id="@+id/button1"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
 		    android:layout_gravity="center"
-		    android:text="连接"/>
+		    android:textOff="连接"
+		    android:textOn="已连接"/>
+		
 		
 		<TextView 
 		    android:id="@+id/text_view3"
